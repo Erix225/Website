@@ -2,10 +2,9 @@ body{
     background-image: url("../img/news.jpg");
     background-color: brown;
     color:white;
-    margin: center;
+    margin-top: 50px;
     background-size: cover; 
     background-repeat: no-repeat;
-    size: 100px;
 }
 
 h1{
@@ -35,7 +34,7 @@ li a:hover
 {
     background-color: darkblue;
 }
-ul {position: bottom; top: 0; width: 100%;}
+ul {position: relative; top: 0; width: 100%;}
 
 @media screen and (max-width: 600px) {
     div.example {
