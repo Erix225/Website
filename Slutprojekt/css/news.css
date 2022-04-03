@@ -36,3 +36,9 @@ li a:hover
     background-color: darkblue;
 }
 ul {position: bottom; top: 0; width: 100%;}
+
+@media screen and (max-width: 600px) {
+    div.example {
+      font-size: 30px;
+    }
+  }

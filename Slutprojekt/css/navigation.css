@@ -66,3 +66,9 @@ top: 50%; transform: translate(0%, -50%);
  .display-left {left: 0%; } 
 
  .display-right {right: 0%; }
+
+ @media screen and (max-width: 600px) {
+    div.example {
+      font-size: 30px;
+    }
+  }
